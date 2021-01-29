@@ -1,0 +1,48 @@
+#main_window {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3px;
+    min-height: 50em;
+}
+
+#header{
+    background-image: linear-gradient(-90deg, #57BA98 0%, #ddeff7 100%);
+    min-height: 8em;
+    padding: 1em 0.5em;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#controls {
+    padding: 2em 2em 0 0;
+    position: relative;
+    width: 18%;
+    float:left;
+}
+
+#viz_wrapper {
+    position: relative;
+    margin-left: 2em;
+    padding-left: 2em;
+}
+
+#visualization {
+    position: relative;
+    float: left;
+    margin: 0 auto 0 auto;
+    min-height: 35em;
+    overflow: auto;
+}
+
+.bar {
+    position: relative;
+    margin: 0;
+    float: left;
+    box-sizing: content-box !important;
+    background-color: cornflowerblue;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ctrl-btn {
+    cursor: pointer;
+}
